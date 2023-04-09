@@ -1,0 +1,48 @@
+@media (max-width: 450px){
+    header .caja {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .productos{
+        display: flex;
+        flex-direction: column;
+    }
+    main .productos li{
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    main .productos li img{
+        height: 60%;
+    }
+
+    main form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main form .checkbox{
+        text-align: center;
+
+    }
+    main table{
+        margin-left: 110px;
+    }
+
+
+}
+
+@media screen and ( max-width:480px) {
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .Principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+}
